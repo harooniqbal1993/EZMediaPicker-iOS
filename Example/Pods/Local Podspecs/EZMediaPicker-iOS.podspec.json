@@ -1,0 +1,22 @@
+{
+  "name": "EZMediaPicker-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of EZMediaPicker-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/harooniqbl1993/EZMediaPicker-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "harooniqbl1993": "haroon.iqbal@gagamuller.com"
+  },
+  "source": {
+    "git": "https://github.com/harooniqbl1993/EZMediaPicker-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EZMediaPicker-iOS/Classes/**/*"
+}

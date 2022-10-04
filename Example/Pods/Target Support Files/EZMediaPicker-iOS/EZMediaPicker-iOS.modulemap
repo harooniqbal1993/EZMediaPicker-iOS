@@ -1,0 +1,6 @@
+framework module EZMediaPicker_iOS {
+  umbrella header "EZMediaPicker-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

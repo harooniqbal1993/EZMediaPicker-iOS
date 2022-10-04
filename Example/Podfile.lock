@@ -1,0 +1,16 @@
+PODS:
+  - EZMediaPicker-iOS (0.1.0)
+
+DEPENDENCIES:
+  - EZMediaPicker-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  EZMediaPicker-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EZMediaPicker-iOS: c883bb5f43d6b72da5b9a2bbd8fa0263b65b12da
+
+PODFILE CHECKSUM: 7db8d94be15187366cc1633f763e8cf0f1f159de
+
+COCOAPODS: 1.11.3
