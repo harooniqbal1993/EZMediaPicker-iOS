@@ -5,11 +5,17 @@
 [![License](https://img.shields.io/cocoapods/l/EZMediaPicker-iOS.svg?style=flat)](https://cocoapods.org/pods/EZMediaPicker-iOS)
 [![Platform](https://img.shields.io/cocoapods/p/EZMediaPicker-iOS.svg?style=flat)](https://cocoapods.org/pods/EZMediaPicker-iOS)
 
+While developing iOS app, developers often have to implement the functionality for attaching media(Images/Videos) from gallery or camera, and they have to write code from scratch, that is time taking and affects the code readability with a number of delegate methods. EZMediaPicker-iOS is all-in-one media picking library and, is purposely built to overcome earlier mentioned problems and making developers life easy and fast development. This is extremely easy to implement and understand, especially for beginners.
+
+### Key Features
+
+- Pick images from gallery
+- Pick video from gallery
+- Images using camera
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -23,9 +29,6 @@ pod 'EZMediaPicker-iOS', :git => 'https://github.com/harooniqbal1993/EZMediaPick
 
 For picking image:
 ```ruby
-import EZMediaPicker_iOS
-
-...
 
 mediaPicker?.pickImage(viewController: self, mediaType: .gallery) { [weak self] image, videoURL, error in
     if let error = error {
@@ -38,9 +41,6 @@ mediaPicker?.pickImage(viewController: self, mediaType: .gallery) { [weak self] 
 
 For video:
 ```ruby
-import EZMediaPicker_iOS
-
-...
 
 mediaPicker?.pickImage(viewController: self, mediaType: .video) { [weak self] image, videoURL, error in
     if let error = error {
@@ -53,9 +53,6 @@ mediaPicker?.pickImage(viewController: self, mediaType: .video) { [weak self] im
 
 Opening camera:
 ```ruby
-import EZMediaPicker_iOS
-
-...
 
 mediaPicker?.pickImage(viewController: self, mediaType: .camera) { [weak self] image, videoURL, error in
     if let error = error {
@@ -72,7 +69,7 @@ mediaPicker?.pickImage(viewController: self, mediaType: .camera) { [weak self] i
 
 ## Author
 
-harooniqbl1993, harooniqbal1993@gmail.com
+Haroon Iqbal, harooniqbal1993@gmail.com
 
 ## License
 
