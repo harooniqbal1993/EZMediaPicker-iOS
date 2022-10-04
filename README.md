@@ -22,13 +22,17 @@ pod 'EZMediaPicker-iOS', :git => 'https://github.com/harooniqbal1993/EZMediaPick
 ## Usage
 
 ```ruby
-        mediaPicker?.pickImage(viewController: self, mediaType: .gallery) { [weak self] image, videoURL, error in
-            if let error = error {
-                print("error: ", error)
-                return
-            }
-            self?.attachedImage.image = image
-        }
+import EZMediaPicker_iOS
+
+...
+
+mediaPicker?.pickImage(viewController: self, mediaType: .gallery) { [weak self] image, videoURL, error in
+    if let error = error {
+        print("error: ", error)
+        return
+    }
+    self?.attachedImage.image = image
+}
 ```
 
 ## Author
