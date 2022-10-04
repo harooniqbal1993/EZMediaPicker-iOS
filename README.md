@@ -19,6 +19,17 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'EZMediaPicker-iOS', :git => 'https://github.com/harooniqbal1993/EZMediaPicker-iOS.git'
 ```
+## Usage
+
+```ruby
+        mediaPicker?.pickImage(viewController: self, mediaType: .gallery) { [weak self] image, videoURL, error in
+            if let error = error {
+                print("error: ", error)
+                return
+            }
+            self?.attachedImage.image = image
+        }
+```
 
 ## Author
 
