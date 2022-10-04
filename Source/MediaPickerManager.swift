@@ -14,7 +14,7 @@ public class MediaPickerManager : NSObject, UIImagePickerControllerDelegate, UIN
     var pickFinished: ((UIImage?, URL?, String?) -> Void)?
     var mediaType: MediaType = .camera
     
-    override init() {
+    public override init() {
         super.init()
         pickerView.delegate = self
     }

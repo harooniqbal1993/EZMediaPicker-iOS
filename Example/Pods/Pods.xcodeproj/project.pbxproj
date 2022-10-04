@@ -45,19 +45,19 @@
 		3AD777A8B9A7938A43B988817196AC64 /* Pods-EZMediaPicker-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZMediaPicker-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BB4A2D65BB5DC5057E9F3C266B54F53 /* EZMediaPicker-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EZMediaPicker-iOS-Info.plist"; sourceTree = "<group>"; };
 		45F8AC39D062644446CC4CF478D8C2E7 /* Pods-EZMediaPicker-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EZMediaPicker-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		581D58DBE235F0AA8042E5F43D1A93F9 /* Pods-EZMediaPicker-iOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EZMediaPicker-iOS_Tests"; path = Pods_EZMediaPicker_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		581D58DBE235F0AA8042E5F43D1A93F9 /* Pods_EZMediaPicker_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZMediaPicker_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D47C60DED317455982B2CF00DE25425 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		675562D983D0FD84B85A1EF03786297C /* Pods-EZMediaPicker-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZMediaPicker-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
 		71031901698F55E7449FA0EC7F1D1E3A /* Pods-EZMediaPicker-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZMediaPicker-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72DDB91AADEE2BCC3889CC29178C9D5D /* Pods-EZMediaPicker-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZMediaPicker-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		746749934A94C94E00E5BEE52EED43A2 /* Pods-EZMediaPicker-iOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EZMediaPicker-iOS_Example"; path = Pods_EZMediaPicker_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		746749934A94C94E00E5BEE52EED43A2 /* Pods_EZMediaPicker_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZMediaPicker_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A34E8C1EAED9EBC3024C405922B5E5 /* EZMediaPicker_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZMediaPicker_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1E9C49185018FA068DBCD7C55EE54E /* Pods-EZMediaPicker-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EZMediaPicker-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9144138044873F50A5B1C6B6AD92F907 /* Pods-EZMediaPicker-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZMediaPicker-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E2EC045F903466AC59B385F3D71137B /* EZMediaPicker-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZMediaPicker-iOS-prefix.pch"; sourceTree = "<group>"; };
-		9ECABC37F1039D552EF342B199F8F679 /* EZMediaPicker-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "EZMediaPicker-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECABC37F1039D552EF342B199F8F679 /* EZMediaPicker-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "EZMediaPicker-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; };
 		A0F0666885ACD543BDBC90898ABFE718 /* Pods-EZMediaPicker-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZMediaPicker-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A51809BC3AF63C969A55BEE3731CF511 /* Pods-EZMediaPicker-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZMediaPicker-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C474B76FEF145C0CAB749A48972DFAC4 /* EZMediaPicker-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EZMediaPicker-iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,8 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				78A34E8C1EAED9EBC3024C405922B5E5 /* EZMediaPicker_iOS.framework */,
-				746749934A94C94E00E5BEE52EED43A2 /* Pods-EZMediaPicker-iOS_Example */,
-				581D58DBE235F0AA8042E5F43D1A93F9 /* Pods-EZMediaPicker-iOS_Tests */,
+				746749934A94C94E00E5BEE52EED43A2 /* Pods_EZMediaPicker_iOS_Example.framework */,
+				581D58DBE235F0AA8042E5F43D1A93F9 /* Pods_EZMediaPicker_iOS_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			);
 			name = "Pods-EZMediaPicker-iOS_Tests";
 			productName = Pods_EZMediaPicker_iOS_Tests;
-			productReference = 581D58DBE235F0AA8042E5F43D1A93F9 /* Pods-EZMediaPicker-iOS_Tests */;
+			productReference = 581D58DBE235F0AA8042E5F43D1A93F9 /* Pods_EZMediaPicker_iOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		468E09F8AFD3324E1BFCAFC3B39E0582 /* EZMediaPicker-iOS */ = {
@@ -314,7 +314,7 @@
 			);
 			name = "Pods-EZMediaPicker-iOS_Example";
 			productName = Pods_EZMediaPicker_iOS_Example;
-			productReference = 746749934A94C94E00E5BEE52EED43A2 /* Pods-EZMediaPicker-iOS_Example */;
+			productReference = 746749934A94C94E00E5BEE52EED43A2 /* Pods_EZMediaPicker_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +324,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					468E09F8AFD3324E1BFCAFC3B39E0582 = {
 						LastSwiftMigration = 1340;
@@ -435,7 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Tests/Pods-EZMediaPicker-iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Tests/Pods-EZMediaPicker-iOS_Tests.modulemap";
@@ -470,7 +470,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EZMediaPicker-iOS/EZMediaPicker-iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EZMediaPicker-iOS/EZMediaPicker-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EZMediaPicker-iOS/EZMediaPicker-iOS.modulemap";
 				PRODUCT_MODULE_NAME = EZMediaPicker_iOS;
@@ -478,7 +478,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -502,7 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Example/Pods-EZMediaPicker-iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Example/Pods-EZMediaPicker-iOS_Example.modulemap";
@@ -569,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -596,7 +596,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Example/Pods-EZMediaPicker-iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Example/Pods-EZMediaPicker-iOS_Example.modulemap";
@@ -630,7 +630,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Tests/Pods-EZMediaPicker-iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EZMediaPicker-iOS_Tests/Pods-EZMediaPicker-iOS_Tests.modulemap";
@@ -700,7 +700,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -730,7 +730,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/EZMediaPicker-iOS/EZMediaPicker-iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EZMediaPicker-iOS/EZMediaPicker-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EZMediaPicker-iOS/EZMediaPicker-iOS.modulemap";
 				PRODUCT_MODULE_NAME = EZMediaPicker_iOS;
@@ -739,7 +739,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

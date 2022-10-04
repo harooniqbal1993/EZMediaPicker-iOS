@@ -1,4 +1,4 @@
-#
+ #
 # Be sure to run `pod lib lint EZMediaPicker-iOS.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EZMediaPicker-iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EZMediaPicker-iOS.'
+  s.summary          = 'EZMediaPicker-iOS is media picker library for quick integration for developers while picking images or videos. Developers only need to write one line code to integrate it.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Easy to use and quick with Error Handling.
                        DESC
 
-  s.homepage         = 'https://github.com/harooniqbl1993/EZMediaPicker-iOS'
+  s.homepage         = 'https://github.com/harooniqbal1993/EZMediaPicker-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'harooniqbl1993' => 'haroon.iqbal@gagamuller.com' }
-  s.source           = { :git => 'https://github.com/harooniqbl1993/EZMediaPicker-iOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'harooniqbl1993' => 'harooniqbal1993@gmail.com' }
+  s.source           = { :git => 'https://github.com/harooniqbal1993/EZMediaPicker-iOS.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://www.linkedin.com/in/haroon-iqbal-95b90a115/'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'EZMediaPicker-iOS/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'EZMediaPicker-iOS' => ['EZMediaPicker-iOS/Assets/*.png']

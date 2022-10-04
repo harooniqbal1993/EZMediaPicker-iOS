@@ -1,5 +1,4 @@
 import XCTest
-import EZMediaPicker-iOS
 
 class Tests: XCTestCase {
     
