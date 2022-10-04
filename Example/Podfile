@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'EZMediaPicker-iOS_Example' do
+  pod 'EZMediaPicker-iOS', :path => '../'
+
+  target 'EZMediaPicker-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
