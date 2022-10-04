@@ -21,6 +21,7 @@ pod 'EZMediaPicker-iOS', :git => 'https://github.com/harooniqbal1993/EZMediaPick
 ```
 ## Usage
 
+For picking image:
 ```ruby
 import EZMediaPicker_iOS
 
@@ -32,6 +33,40 @@ mediaPicker?.pickImage(viewController: self, mediaType: .gallery) { [weak self] 
         return
     }
     self?.attachedImage.image = image
+}
+```
+
+For video:
+```ruby
+import EZMediaPicker_iOS
+
+...
+
+mediaPicker?.pickImage(viewController: self, mediaType: .video) { [weak self] image, videoURL, error in
+    if let error = error {
+        print("error: ", error)
+        return
+    }
+    print(videoURL)
+}
+```
+
+Opening camera:
+```ruby
+import EZMediaPicker_iOS
+
+...
+
+mediaPicker?.pickImage(viewController: self, mediaType: .camera) { [weak self] image, videoURL, error in
+    if let error = error {
+        print("error: ", error)
+        return
+    }
+    // if image
+    self?.attachedImage.image = image
+    
+    // if video
+    print(videoURL)
 }
 ```
 
