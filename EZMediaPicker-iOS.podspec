@@ -26,7 +26,7 @@ Easy to use and quick with Error Handling.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'harooniqbl1993' => 'harooniqbal1993@gmail.com' }
   s.source           = { :git => 'https://github.com/harooniqbal1993/EZMediaPicker-iOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://www.linkedin.com/in/haroon-iqbal-95b90a115/'
+  s.social_media_url = 'https://www.linkedin.com/in/haroon-iqbal-95b90a115/'
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'

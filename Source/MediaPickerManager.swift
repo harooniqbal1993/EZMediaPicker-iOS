@@ -23,7 +23,7 @@ public class MediaPickerManager : NSObject, UIImagePickerControllerDelegate, UIN
         self.mediaType = mediaType
         pickFinished = completion
         
-        if mediaType == .camera && !UIImagePickerController.isSourceTypeAvailable(.camera) {
+        if (mediaType == .camera || mediaType == .video) && !UIImagePickerController.isSourceTypeAvailable(.camera) {
             pickFinished?(nil, nil, "Camera not available")
             return
         }
